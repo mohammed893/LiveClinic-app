@@ -1,0 +1,37 @@
+name: telemedicine
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0 
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  curved_navigation_bar: ^1.0.6
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  dio: ^5.7.0
+  convex_bottom_bar: ^3.2.0
+  chat_bubbles: ^1.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+
+flutter_assets:
+  assets_path: assets/images/
+  output_path: lib/core/apptheme/
+  filename: assets.dart
+  field_prefix: 
