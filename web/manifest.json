@@ -1,6 +1,6 @@
 {
-    "name": "liveclinic",
-    "short_name": "liveclinic",
+    "name": "telemedicine",
+    "short_name": "telemedicine",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
