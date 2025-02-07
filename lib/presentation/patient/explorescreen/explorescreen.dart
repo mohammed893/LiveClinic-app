@@ -1,9 +1,9 @@
 // presentation/patient/explorescreen/explorescreen.dart
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:telemedicine/core/components/custom_search_bar.dart';
+import 'package:telemedicine/core/apptheme/components/custom_search_bar.dart';
 import 'package:telemedicine/presentation/patient/booking/appointment_payment.dart';
-import '../../../core/components/custom_appbar.dart';
+import '../../../core/apptheme/components/custom_appbar.dart';
 import '../../cubit/cubit.dart';
 import '../../cubit/states.dart';
 

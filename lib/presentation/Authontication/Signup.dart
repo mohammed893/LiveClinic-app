@@ -1,8 +1,8 @@
 // presentation/Authontication/Signup.dart
 import 'package:flutter/material.dart';
 import 'package:telemedicine/core/apptheme/colors.dart';
-import 'package:telemedicine/core/components/custom_button.dart';
-import 'package:telemedicine/core/components/custom_fromfiled.dart';
+import 'package:telemedicine/core/apptheme/components/custom_button.dart';
+import 'package:telemedicine/core/apptheme/components/custom_fromfiled.dart';
 import 'package:telemedicine/presentation/Authontication/login.dart';
 
 

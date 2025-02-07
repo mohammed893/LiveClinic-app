@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:telemedicine/core/apptheme/assets.dart';
 import 'package:telemedicine/core/apptheme/colors.dart';
 import 'package:chat_bubbles/bubbles/bubble_normal.dart';
+import 'package:telemedicine/core/apptheme/components/appbar_icons.dart';
 import 'package:telemedicine/data/models/botchatmodel.dart';
 import 'package:telemedicine/presentation/cubit/cubit.dart';
 import 'package:telemedicine/presentation/patient/patienthome/patient_home.dart';  
@@ -21,7 +22,7 @@ class Chatbotscreen extends StatelessWidget {
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 20.0),
-            child: ChatBotIcons(Assets.Menu),
+            child: AppbarIcons(Assets.Menu),
           ),
         ],
         leading: IconButton(
@@ -29,7 +30,7 @@ class Chatbotscreen extends StatelessWidget {
             Navigator.pop(context , MaterialPageRoute(builder:(context)=> PatientHome()));
             cubit.changeBottomNav(0);    // returns buttomm navigation bar to the home
           }, 
-          icon: ChatBotIcons(Assets.back),
+          icon: AppbarIcons(Assets.back),
           ) ,
         backgroundColor: Colors.white,
         centerTitle: true,
@@ -154,30 +155,7 @@ class Chatbotscreen extends StatelessWidget {
 
     );
   }
-  Widget  ChatBotIcons(
-     // add an onclick function
-     String icon
-     ){
-    return GestureDetector(
-      child: Container(
-                width: 40,
-                height: 40,
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  border: Border.all(
-                    color:AppColors.lightgrey,
-                    width: 1,
-                  ),
-                ),
-                child: CircleAvatar(
-                  backgroundColor: AppColors.white,
-                  radius: 10,
-                  child: ImageIcon(AssetImage(icon), color: AppColors.Gray,)),
-              ),
-              onTap: (){}, // add onclick function from viewmodel later
-    );
-  }
-}
+} 
 
 List<ChatMessage> messages = [
   ChatMessage(messageContent: "Hello, my Botty :)", isMessageFromMe: true),

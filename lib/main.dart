@@ -2,7 +2,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:telemedicine/presentation/cubit/cubit.dart';
-import 'package:telemedicine/core/maindoc.dart';
+import 'package:telemedicine/presentation/patient/chatbot.dart/voicebot.dart';
+import 'package:telemedicine/presentation/patient/maindoc.dart';
 import 'package:telemedicine/presentation/doctor/home/doctorhome.dart';
 import 'package:telemedicine/presentation/patient/booking/payment.dart';
 import 'package:telemedicine/presentation/patient/booking/succesfull_booking.dart';
@@ -31,8 +32,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Telemedicine App',
-      home: const 
-      DoctorMainScreen(),
+      home: const Voicebot(),
+     // DoctorMainScreen(),
       //PatientMainScreen()
     );
   }

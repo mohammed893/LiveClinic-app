@@ -1,7 +1,6 @@
-// core/components/custom_appbar.dart
+// core/apptheme/components/custom_appbar.dart
  import 'package:flutter/material.dart';
 import 'package:telemedicine/core/apptheme/colors.dart';
-import 'package:telemedicine/core/apptheme/sanablecolors.dart';
 // import 'package:liveclinic/Shared/style/colors.dart';
 
 AppBar appbar(){

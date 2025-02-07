@@ -1,10 +1,10 @@
-// core/maindoc.dart
+// presentation/patient/maindoc.dart
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:telemedicine/core/apptheme/assets.dart';
 import 'package:telemedicine/core/apptheme/colors.dart';
-import 'package:telemedicine/core/components/custom_appbar.dart';
+import 'package:telemedicine/core/apptheme/components/custom_appbar.dart';
 import 'package:telemedicine/presentation/cubit/cubit.dart';
 import 'package:telemedicine/presentation/cubit/states.dart';
 import 'package:telemedicine/presentation/doctor/home/doctorhome.dart';

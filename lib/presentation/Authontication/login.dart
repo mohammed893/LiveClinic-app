@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:telemedicine/core/apptheme/colors.dart';
-import 'package:telemedicine/core/components/custom_button.dart';
-import 'package:telemedicine/core/components/custom_fromfiled.dart';
+import 'package:telemedicine/core/apptheme/components/custom_button.dart';
+import 'package:telemedicine/core/apptheme/components/custom_fromfiled.dart';
 
 class Login extends StatelessWidget {
    Login({super.key});

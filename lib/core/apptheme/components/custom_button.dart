@@ -1,4 +1,4 @@
-// core/components/custom_button.dart
+// core/apptheme/components/custom_button.dart
 import 'package:flutter/material.dart';
 
 Widget buildButton({
@@ -7,7 +7,7 @@ Widget buildButton({
   required String text,
   required color,
   textColor,
-  height,
+  double? height,
   bool loading = false,
   borderColor = Colors.white,
   Widget? icon,
@@ -26,21 +26,22 @@ Widget buildButton({
         ),
         child: loading
             ? const CircularProgressIndicator()
-            : Center( // Wrap with Center
+            : Center(
                 child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center, // Center items horizontally
+                  mainAxisAlignment: MainAxisAlignment.center, 
                   children: [
                     if (icon != null) ...[
                       icon,
                       const SizedBox(width: 8),
                     ],
-                    Expanded( // Wrap Text with Expanded
+                    Expanded( 
                       child: Text(
                         text,
-                        textAlign: TextAlign.center, // Now textAlign works!
+                        textAlign: TextAlign.center, 
                         style: TextStyle(
                           color: textColor,
                           fontSize: 20.0,
+                          fontWeight: FontWeight.w400,
                         ),
                       ),
                     ),

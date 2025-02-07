@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:telemedicine/core/apptheme/colors.dart';
-import 'package:telemedicine/core/components/custom_button.dart';
-import 'package:telemedicine/core/components/custom_search_bar.dart';
+import 'package:telemedicine/core/apptheme/components/custom_button.dart';
+import 'package:telemedicine/core/apptheme/components/custom_search_bar.dart';
 
 class PatientHome extends StatelessWidget {
    PatientHome({super.key});

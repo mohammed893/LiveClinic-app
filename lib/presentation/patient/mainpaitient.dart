@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:telemedicine/core/apptheme/assets.dart';
 import 'package:telemedicine/core/apptheme/colors.dart';
-import 'package:telemedicine/core/components/custom_appbar.dart';
+import 'package:telemedicine/core/apptheme/components/custom_appbar.dart';
 import 'package:telemedicine/presentation/patient/chatbot.dart/chatbotscreen.dart';
 import 'package:telemedicine/presentation/patient/explorescreen/explorescreen.dart';
 import 'package:telemedicine/presentation/cubit/cubit.dart';

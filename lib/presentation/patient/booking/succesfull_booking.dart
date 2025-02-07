@@ -2,9 +2,9 @@
 import 'package:flutter/material.dart';
 import 'package:telemedicine/core/apptheme/assets.dart';
 import 'package:telemedicine/core/apptheme/colors.dart';
-import 'package:telemedicine/core/components/custom_appbar.dart';
+import 'package:telemedicine/core/apptheme/components/custom_appbar.dart';
 //import 'package:telemedicine/core/components/custom_bottom_nav_bar.dart';
-import 'package:telemedicine/core/components/custom_button.dart';
+import 'package:telemedicine/core/apptheme/components/custom_button.dart';
 
 // remove scaffold stuff after applying the logic
 
